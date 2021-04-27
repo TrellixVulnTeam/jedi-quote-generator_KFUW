@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <title>Jedi Quote Generator</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="quote-generator.js"></script>
+        <link rel="stylesheet" href="./css/jedi-style.css">
+        <meta charset="utf-8"/>
+    </head>
+  <body>
+    <div id="wrapper">
+      <div id="quote-box">
+        <div id="quote-text">
+          <i class="fa fa-quote-left"></i>
+          <span id="text">
+          </span>
+        </div>
+        <div id="quote-author">
+          <span id="author"></span>
+        </div>
+        <div id="buttons">
+          <a
+             id="tweet-quote"
+             class="button"
+             title="Tweet this quote!"
+             target="_blank"
+             >
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a
+             id="jedi-order"
+             class="button"
+             title="Join us!"
+             target="_blank"
+             href="https://www.wikihow-fun.com/Be-a-Jedi"
+             >
+            <i class="fab fa-jedi-order"></i>
+          </a>
+          <button
+                  id="new-quote"
+                  class="button">
+            New quote</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

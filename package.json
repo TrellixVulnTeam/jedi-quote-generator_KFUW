@@ -1,0 +1,19 @@
+{
+  "name": "jedi-quote-generator",
+  "version": "1.0.0",
+  "description": "Randomly generates quotes from Jedi/Force Sensitives",
+  "main": "test2.html",
+  "scripts": {
+    "test": "f",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": "jacob",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
